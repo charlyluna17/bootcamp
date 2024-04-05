@@ -36,7 +36,7 @@
  //EJERCICIO 02
 // realizar un programa que genere contraseñas aleatorias
 
-function generarPasword (longitud){
+/* function generarPasword (longitud){
     var caracters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
     var password = ""
@@ -50,4 +50,5 @@ function generarPasword (longitud){
 }
 
 var longitud = 8
-alert("Tu contraseña nueva es: " + generarPasword(longitud))
+alert("Tu contraseña nueva es: " + generarPasword(longitud)) */
+

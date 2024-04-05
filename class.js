@@ -34,6 +34,17 @@ console.table(perro2)
 console.table(perro3)
  */
 
-//INTRODUCCION A LOS ARRAYS
+// evento onechange para mostrar el valor seleccionado de un elemento <select>
+
+function mostrarSeleccion(){
+    //Se obtendra el valor que se elija de elemnto
+    var seleccion =  document.getElementById("seleccion").value
+
+    //Obtener el elemnto de mensaje 
+    var mensaje = document.getElementById("mensaj")
+
+    //Mostrar resultado 
+    mensaje.textContent= "La seleccion que ha hecho es:" + seleccion
+}
 
 
